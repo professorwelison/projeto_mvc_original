@@ -1,6 +1,7 @@
-<a href="<?= e(url('user')) ?>">Voltar</a>
 
 <h1><?= e($title) ?></h1>
+<a href="<?= e(url('user')) ?>">Voltar</a>
+
 
 <ul class="lista">
 <?php foreach ($users as $u): ?>
